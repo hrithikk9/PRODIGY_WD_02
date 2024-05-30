@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(222, 213, 221);
+}
+#stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(221, 187, 196, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+#time {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(96, 244, 59);
+}
+button:hover {
+    background-color: #df1616;
+}
